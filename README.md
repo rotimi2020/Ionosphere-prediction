@@ -124,24 +124,6 @@ Best: 0.932143 using {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 75}
 * precision score 1.0
 * recall score 0.96
 
-confusion_matrix report :
-
-* [[45  0]
-* [ 1 24]]
-
-classification_report :
-
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99        45
-         1.0       1.00      0.96      0.98        25
-
-    accuracy                           0.99        70
-   macro avg       0.99      0.98      0.98        70
-weighted avg       0.99      0.99      0.99        70
-
-
-
 * TRAIN SET EVALUATION :
 * accuracy score: 0.9964285714285714
 * roc auc score: 0.995
@@ -149,20 +131,3 @@ weighted avg       0.99      0.99      0.99        70
 * precision score 1.0
 * recall score 0.99
 
-confusion_matrix report :
-
-* [[180   0]
- * [  1  99]]
-
-classification_report :
-
-              precision    recall  f1-score   support
-
-         0.0       0.99      1.00      1.00       180
-         1.0       1.00      0.99      0.99       100
-
-    accuracy                           1.00       280
-   macro avg       1.00      0.99      1.00       280
-weighted avg       1.00      1.00      1.00       280
-
-----------------------------------
