@@ -28,7 +28,22 @@
  * **Performance Results**
     * *Training Score: 99.64%*
     * *Validation Score: 98.57%*
+    * *accuracy score: 0.9857142857142858*
+    * *roc auc score: 0.98*
+    * *f1 score: 0.9795918367346939*
+    * *precision score 1.0*
+    * *recall score 0.96*
 
+ classification_report :
+
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99        45
+         1.0       1.00      0.96      0.98        25
+
+                                       0.99        70
+                   0.99      0.98      0.98        70
+                   0.99      0.99      0.99        70
 
 
 
